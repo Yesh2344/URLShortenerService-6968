@@ -12,6 +12,7 @@ app.post('/api/shorten', (req, res) => {
   res.json({ shortenedUrl });
 });
 
+// leaving a note for later
 app.get('/api/original/:shortenedUrl', (req, res) => {
   const shortenedUrl = req.params.shortenedUrl;
   // Replace with actual database logic
