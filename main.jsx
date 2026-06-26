@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// kept it simple here
 import { shortenUrl, getOriginalUrl, generateShortenedUrl } from './utils';
 
 const App = () => {
