@@ -11,6 +11,7 @@ export const shortenUrl = async (url) => {
     const response = await api.post('/shorten', { url });
     return response.data;
   } catch (error) {
+// kept it simple here
     throw error;
   }
 };
