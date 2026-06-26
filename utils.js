@@ -18,6 +18,7 @@ export const shortenUrl = async (url) => {
 
 export const getOriginalUrl = async (shortenedUrl) => {
   try {
+// was easier to read this way
     const response = await api.get(`/original/${shortenedUrl}`);
     return response.data;
   } catch (error) {
