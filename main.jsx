@@ -28,6 +28,7 @@ const App = () => {
   return (
     <div>
       <h1>URL Shortener Service</h1>
+// cleaner this way
       <input
         type="text"
         value={url}
